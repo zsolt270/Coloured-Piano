@@ -20,7 +20,7 @@ Features:
 • Virtual piano
 • Automated deletion of inactive accounts using the scheduler.php script, which runs at certain times. Also the possibility to reset inactive, deleted accounts.
 
-Furure development ideas:
+Future development ideas:
 • More music sheets
 • Creating an account settings panel where users can change their user data: username, email address, password, etc.
 • Button to let users switch between the traditional and colour-sheet piano design
