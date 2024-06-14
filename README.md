@@ -4,7 +4,6 @@
 - [About the project](#about-the-project)
 - [About the implementation](#about-the-implementation)
 - [Features](#features)
-- [Used languages and tools](#used-languages-and-tools)
 - [Future development ideas](#future-development-ideas)
 - [Used languages and tools](#used-languages-and-tools)
 
