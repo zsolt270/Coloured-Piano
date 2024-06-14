@@ -1,6 +1,6 @@
 # Coloured-Piano website project
 
-## Table of Contents (Optional) :
+## Table of Contents:
 - About the project
 - About the implementation
 - Features
