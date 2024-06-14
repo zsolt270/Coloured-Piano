@@ -6,6 +6,7 @@
 - [Features](#features)
 - [Used languages and tools](#used-languages-and-tools)
 - [Future development ideas](#future-development-ideas)
+- [Used languages and tools](#used-languages-and-tools)
 
 ### About the project:
 This was my final year project in the university, because of that it is in hungarian. The main aim of the project would be to support the work of special needs teachers in the development of people with mild intellectual disabilities and learning disabilities. Therefore the website is based on the [colour-sheet music](https://en.wikipedia.org/wiki/Colored_music_notation) based piano learning development method, as it is an excellent but less used method for developing the skills of my target audience. I would use the site to disseminate this type of development method in such a way that it can be made available to more people via the Internet, as in this case it can be used without the need for a traditional piano.
