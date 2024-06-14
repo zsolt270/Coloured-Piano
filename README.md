@@ -35,4 +35,4 @@ The implementation follows the MVC architecture and each page has its own contro
 -Xamp for the local development
 -Gmail for developing and testing the email functionality locally
 
-To see the project itself i made short videos about the features and pictures about the design which u can check out in the presentation folder.
+**To see the project itself i made short videos about the features and pictures about the design which u can check out in the presentation folder.**
