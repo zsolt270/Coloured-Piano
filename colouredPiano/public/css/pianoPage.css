@@ -1,0 +1,167 @@
+
+.middle{
+    padding-top: 25%;
+}
+
+.login_div{
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    max-width: 50%;
+    margin-top: 5rem;
+    top: 20%;
+    left: 25%;
+    background-image:linear-gradient(to bottom, #f3c478, #e9b666, #e0a855, #d79a44, #cd8c32) ;
+}
+
+/* buttons */
+.p_page_btns{
+    border: 3px solid gray !important;
+    border-radius: 20px !important;
+    padding: 16px 20px !important;
+    color: #625D5D !important;
+}
+.p_page_btns:hover{
+    background-color: #FFA52C !important;
+    border: 2px solid gray !important;
+    box-shadow: 0px 5px 10px white, -0px -5px 10px white;
+    color: black !important;
+}
+
+/* Piano part */
+.songtittle_place{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 6px;
+    color: gray;
+    text-align: center;
+}
+.piano_ctrl_btns{
+    padding: 0rem 2.5rem !important;
+    border-radius: 20px !important;
+    border: 3px solid gray !important;
+}
+#pauseSongBtn{
+  padding: 0rem 0.5rem !important;
+    border-radius: 20px !important;
+    border: 3px solid gray !important;
+    display: none;
+}
+.piano_ctrl_btns:hover{
+    background-color: #FFA52C !important;
+    border: 2px solid gray !important;
+    box-shadow: 0px 5px 10px white, -0px -5px 10px white;
+    color: black !important;
+}
+.piano_ctrl_btns:active{
+    box-shadow: 0px 2px 2px inset black, 0px -2px 2px inset black;
+}
+
+.btn_icons{
+    font-size: 2rem;
+    padding: 0px;
+    color: gray;
+}
+/* Song sheet bg*/
+.piano_sheetBG{
+    background-image: linear-gradient(to bottom, #5D340B 51%,#7C4A19 98%,#5D340B 100%); 
+    background-color:white;
+    padding:8px;
+}
+/* Piano keys bg*/
+.piano_keyBG{
+    background-image: linear-gradient(to bottom, #452403 51%,#663300 98%,#452403 100%); 
+    min-width: 100%;
+    position: relative ;
+}
+
+/* Piano keys */
+
+.key {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+  }
+
+  .white {
+    min-height: 13rem;
+    width: 4.5%;
+    background-color: white;
+    border: 1px solid #333;
+  }
+  
+  .white:active, .white:active p{
+    background-color: #CCC;
+    color: white;
+  }
+  .white p{
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  .noteIMGW{
+    position: absolute;
+    top: 73%;
+    right: 10%;
+  }
+  .black {
+    height:7rem ;
+    width:  3.5% ; 
+    background-color: gray;
+    z-index: 2;
+    margin-left: -1.8%;
+    margin-right: -1.8%;
+  }
+  .black p{
+    margin-bottom: 50px;
+  }
+  .black:active,.black:active p {
+    background-color: #333;
+    color: white;
+  }
+  .noteIMGB{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+  }
+
+  .errorMsg{
+    display: none;
+    transition: opacity 0.5s ease;
+  }
+  .errorMsgHide{
+    opacity: 0;
+  }
+
+/* media querrys */
+@media only screen and (max-width: 1200px){
+    .noteIMGW{
+        right: 0%;
+      }
+    .noteIMGB{
+        top: 60%;
+      }
+}
+
+@media only screen and (max-width: 991px ), (min-height: 721px){
+    footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+}
+@media only screen and (max-height:450px) {
+    .middle{
+        padding-top: 1%;
+    }
+}
+@media only screen and (max-height:280px) {
+    footer{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        }
+}
