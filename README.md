@@ -1,5 +1,5 @@
 # Coloured-Piano website project
-
+![Homepage](Presentation/readmeMainPic.png)
 ## Table of Contents:
 - [About the project](#about-the-project)
 - [About the implementation](#about-the-implementation)
