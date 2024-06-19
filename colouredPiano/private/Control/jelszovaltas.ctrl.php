@@ -58,7 +58,7 @@ if(!isset( $_SESSION['loggedin'])){
     }
     $identifier = $_GET['identifier'];
     $token = $_GET['validator'];
-    // checks the url parameters ha megpróbálják elérni a urlbe beirva és akkor hibat dob
+    // checks the url parameters
     if((empty($identifier) || empty($token)) && $_SESSION['failed'] == false){
         $identifier = "";
         $token = "";
