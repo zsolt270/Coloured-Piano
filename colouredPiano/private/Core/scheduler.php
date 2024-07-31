@@ -1,5 +1,6 @@
 <?php
-// the file that executes the inactive account deletes, 
+// the file that executes the inactive account deletes,
+//here the fullpath is needed E.g.: .../private/Model/Model.php
 require('private\Model\Model.php');
 require('private\Core\Mailer.class.php');
 
