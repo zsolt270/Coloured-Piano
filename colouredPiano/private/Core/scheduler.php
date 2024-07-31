@@ -1,7 +1,7 @@
 <?php
 // the file that executes the inactive account deletes, 
-require('D:\xamp\htdocs\szineszongora\private\Model\Model.php');
-require('D:\xamp\htdocs\szineszongora\private\Core\Mailer.class.php');
+require('private\Model\Model.php');
+require('private\Core\Mailer.class.php');
 
 $currentDate = date("Y/m/d");
 $model = new Model();
